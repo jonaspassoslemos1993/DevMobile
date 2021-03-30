@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DevMobile</string>
+    <string name="acessar">Acessar Aplicativo</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="nome_user"></string>
+    <string name="voltar_login">Voltar para tela de login</string>
+    <string name="voltar_splash">Voltar para tela Splash</string>
+</resources>
