@@ -27,14 +27,14 @@ public class LoginActivity extends AppCompatActivity {
                 String login = tLogin.getText().toString();
                 String senha = tSenha.getText().toString();
 
-                    if (login.equals(senha)) {
-                        //alert("Login realizado com sucesso! ");
+
+                if (login.equals(senha)){
+                        alert("Login realizado com sucesso! ");
                         acessaApp();
                     } else {
                         alert("Ops! Verifique usuário e senha!");
 
                     }
-
 
             }
 

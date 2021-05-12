@@ -27,6 +27,11 @@ public class PrincipalActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void acessaTodos(View view) {
+        Intent intent = new Intent(this, Api.class);
+        startActivity(intent);
+    }
+
 
 
 }

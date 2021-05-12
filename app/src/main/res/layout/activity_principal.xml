@@ -8,7 +8,7 @@
     tools:context=".PrincipalActivity">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="retornaTelaPrincipal"
@@ -16,17 +16,25 @@
         app:backgroundTint="#00BCD4" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="abreLoginActivity"
         android:text="@string/voltar_login"
         app:backgroundTint="#00BCD4" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="acessaTodos"
+        android:text="Acessar API's"
+        app:backgroundTint="#00BCD4" />
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="608dp"
+        android:layout_width="wrap_content"
+        android:layout_height="528dp"
         android:layout_margin="10dp"
         app:srcCompat="@drawable/bemvindo" />
 
